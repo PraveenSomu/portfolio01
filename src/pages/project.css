@@ -1,0 +1,85 @@
+#project{
+    background: #021036;
+    padding: 20px 10px;
+}
+.project-head{
+    color: white;
+}
+.project-head h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.project-head h3{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.img-box{
+    width: 450px;
+    height: 270px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-box{
+    padding: 0 20px;
+    color: white;
+}
+.img-text a{
+    margin: 20px 0;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: aqua;
+    text-decoration: none;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.img-text a:hover{
+    color: rgb(235, 252, 5);
+}
+.img-text a:active{
+    color: rgb(210, 70, 70);
+}
+.img-text h4{
+    margin-top: 15px;
+}
+.span2{
+    font-size: 1.5rem;
+    font-family: "Dancing Script", cursive;
+    font-weight:600;
+    color: rgb(235, 252, 5);
+
+}
+
+.project-border{
+    border: 2px solid aqua;
+    margin: 30px 0;
+    border-radius: 70px 0;
+    background: linear-gradient(222deg,#021036,#0c1e4a,#021036, rgb(5, 51, 97) );
+    background-size: 180% 180%;
+    
+}
+  
+
+
+
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .project-border{
+        border:none;
+        background: none;
+    
+    }
+    
+
+}

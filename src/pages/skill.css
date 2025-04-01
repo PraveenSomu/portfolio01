@@ -1,0 +1,54 @@
+*{box-sizing: border-box;}
+
+#skill {
+    width: 100%;
+    background: #021543;
+    
+}
+
+.skill-head h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    letter-spacing: 8px;
+    color: white;
+    padding-top: 50px;
+}
+.skill-body{
+    color: white;
+    padding: 20px;
+}
+.skill-box{
+    height: 220px;
+    padding: 10px;
+}
+.skill-box h4{
+    text-transform: uppercase;
+    color: #ffc107;
+    transition: .3s .0s ease-in-out;
+}
+#skill-icons{
+    font-size: 2.7rem;
+    color: aqua;
+    margin-bottom: 10px;
+    transition: .3s .0s ease-in-out;
+}
+.skill-box1{
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .3s .0s ease-in-out;
+
+}
+.skill-box1:hover{
+    border: 2px solid aquamarine;
+    background: #021036;
+    box-shadow: 0 0 5px aquamarine , 0 0 10px aquamarine;
+}
+.skill-box1:hover #skill-icons{
+    color: #ffc107;
+}
+.skill-box1:hover h4{
+    color: aqua;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,103 @@
+
+.aboutcont1 h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    letter-spacing: 8px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.aboutcont1 h2::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    transition: all 0.5s;
+    width: 0px;
+    background: aqua;
+}
+
+.aboutcont1 h2:hover::before {
+    width: 50%;
+}
+
+.aboutcont1 h2:hover {
+    color: aqua;
+}
+.about-img{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
+.aboutcont1{
+    padding: 45px;
+    margin: auto;
+    color: white;
+}
+.about-us{
+    background: #021036;
+}
+.aboutcont1 p{
+    padding-top: 30px;
+    text-indent: 40px;
+    
+}
+
+.bubble{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: rgb(215, 83, 83);
+    box-shadow: 0 0 20px #1de5ff, 0 0 50px #1de5ff, 0 0 150px #1de5ff;
+  
+}
+.bubble1{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgb(230, 154, 14);
+    transform: translate(30px , -30px); 
+    box-shadow: 10px 05px 20px #1de5ff, 10px 10px 70px #1de5ff, 10px 10px 150px #1de5ff;
+}
+.bubble-box{
+    width: 100px;
+    height: 100px;
+    transform: translate(430px,10px); 
+    padding: 5px;
+}
+
+.bubble-box{
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+    animation-direction: alternate;
+
+}
+@keyframes shake {
+    0%{transform: translate(260px,27px);
+
+    }
+    50%{
+        transform: translate(280px,17px);
+
+    }
+    100%{
+        transform: translate(260px,27px);
+
+    }
+}
+
+
+
+
+

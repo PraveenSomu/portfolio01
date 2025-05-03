@@ -365,7 +365,7 @@ const Home = () => {
             </div>
             <div className="img-text">
               <a
-                href="https://PraveenSomu.github.io/red-wine/"
+                href="https://praveensomu.github.io/cafe-redwine/"
                 className="stretched-link"
                 target="blank"
               >
